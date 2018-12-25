@@ -3,7 +3,6 @@ import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
 
 public class Solution {
-    //Hello
     static double lambda = Math.sqrt(1 + 2 * Math.sqrt(7));
     static double b01 = lambda * lambda + 5;
     static double b02 = (lambda * lambda - 3) / lambda;
@@ -20,7 +19,6 @@ public class Solution {
     static double m = 300;
     static double a = 5.95 * Math.pow(10, -5);
     static double alpha;
-
 
     static double norma(double q, double w, double e, double r) {
         return Math.sqrt(q * q + w * w + e * e + r * r);
@@ -106,7 +104,7 @@ public class Solution {
                 System.out.println("alpha0 = " + alpha_);
             }
         }
-//График f(alpha) ========================================================
+        //График f(alpha)
         double a[] = new double[k - 1];
         double b[] = new double[k - 1];
 
@@ -209,7 +207,8 @@ public class Solution {
             }
             y1[k + 1] = y1[k] + p1[k];
             y2[k + 1] = y2[k] + p2[k];
-//Графики ========================================================
+
+            //Графики
             //Траектория движения КА
             double v1[] = new double[k-1];
             double v2[] = new double[k -1];
