@@ -3,6 +3,7 @@ import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;
 
 public class Solution {
+    //Hello
     static double lambda = Math.sqrt(1 + 2 * Math.sqrt(7));
     static double b01 = lambda * lambda + 5;
     static double b02 = (lambda * lambda - 3) / lambda;
@@ -19,6 +20,7 @@ public class Solution {
     static double m = 300;
     static double a = 5.95 * Math.pow(10, -5);
     static double alpha;
+
 
     static double norma(double q, double w, double e, double r) {
         return Math.sqrt(q * q + w * w + e * e + r * r);
